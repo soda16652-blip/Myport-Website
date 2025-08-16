@@ -1,0 +1,12 @@
+.container'{
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    /*กำหนดทิศทางของการเรียง*/
+    justify-content:space-evenly;
+    /*ระยะห่างตรงกลาง หรือท้าย*/
+    align-items: center;
+    /* ทำงานเหมือน justify-content แต่ตรงข้ามกับ  flex-direction */
+}
