@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+}
+
+#head{
+  color: gold;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: 20vh;
+}
+
+input {
+  background-color: black;
+  color:gold;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 450px;
+  font-size: 20px;
+}
+
+input:focus {
+  border-color: yellow;
+  outline: none;
+}
+
+#answer{
+  color: gold;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+}
