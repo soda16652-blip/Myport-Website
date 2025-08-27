@@ -2,13 +2,22 @@ body{
   background-color: black;
 }
 
-#head{
+.container{
+  width: 30vw;
+  padding: 8px;
+  background-color: black;
+  box-shadow: 2px 2px 8px gold;
+  border-radius: 20px;
+  border: none;
+  margin: 3%;
+}
+
+#head {
   color: gold;
   font-family: "Comic Relief", system-ui;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 35px;
   font-style: normal;
-  margin-top: 20vh;
 }
 
 input {
@@ -26,7 +35,20 @@ input:focus {
   outline: none;
 }
 
-#answer{
+button {
+  width: 23vw;
+  height: 60px;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700px;
+  font-size: 30px;
+  font-style: normal;
+  background-color: gold;
+  border-radius: 20px;
+  border: none;
+  margin-top: 3%;
+}
+
+#answer {
   color: gold;
   font-family: "Comic Relief", system-ui;
   font-weight: 700;
